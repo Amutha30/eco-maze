@@ -1,0 +1,55 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Smooth scrolling + fancy transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d3748;
+  overflow-x: hidden;
+  transition: background 0.5s ease-in-out;
+}
+
+/* Default button reset */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Scrollbar styling (looks fancy in Chrome/Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e6fffa;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38a169;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2f855a;
+}
